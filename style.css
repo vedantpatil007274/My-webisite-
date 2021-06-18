@@ -4,12 +4,7 @@
     text-align: center;
 }
 
-#mypicture {
-    width: 160px;
-    margin-bottom: 50px;
-    border-radius: 50%;
-    margin-bottom: 3px;
-}
+
 
 .aboutme {
     position: absolute;
@@ -24,20 +19,16 @@
     display: table;
     text-align: center;
     z-index: 9;
+    background: linear-gradient(#f6f702 0%, #f7b602 100%);
 }
 
-.profile {
-    text-align: center;
-    vertical-align: middle;
-    position: relative;
-    display: table-cell;
-}
+
 
 .bio {
     text-align: center;
     padding: 50px;
     font-size: 20px;
-    background: linear-gradient(#f6f702 0%, #f7b602 100%);
+ 
 }
 
 .line {
@@ -75,12 +66,9 @@ p {
     font-family: 'Roboto Mono', monospace;
 }
 
-img {
-    width: 160px;
-    margin-bottom: 50px;
-    border-radius: 50%;
+
     
-}
+
 
 
 .main {
@@ -119,4 +107,12 @@ img {
     position: absolute;
     
     
+}
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    text-align: center;
+    
+    margin-top:60px;
 }
